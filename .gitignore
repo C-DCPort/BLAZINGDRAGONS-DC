@@ -1,0 +1,19 @@
+# Données du jeu : jamais dans le dépôt
+*.bin
+*.cue
+*.iso
+extracted/
+*.DAT
+*.STR
+*.XA
+port/sim/obj/
+port/sim/bd_sim
+shots/
+saves/
+port/dc/obj/
+port/dc/*.elf
+/scummvm/
+build_dc.log
+make.log
+__pycache__/
+hd/
