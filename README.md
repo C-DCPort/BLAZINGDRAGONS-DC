@@ -18,8 +18,7 @@ Projet de fans, gratuit et non officiel, sans lien avec Crystal Dynamics ni avec
    - la version américaine.
 
    Avec les deux, le disque est bilingue. Avec une seule, il est dans la langue de cette version.
-2. **Les graphismes HD**, facultatifs : deux fichiers `HD.DAT` (décors) et `HDSPR.DAT` (sprites), à télécharger ici :
-   *(lien à venir)*. Sans eux, le jeu fonctionne avec les graphismes d'origine.
+2. **Les graphismes HD**, facultatifs : deux fichiers `HD.DAT` (décors) et `HDSPR.DAT` (sprites), à télécharger dans release. Sans eux, le jeu fonctionne avec les graphismes d'origine.
 3. **Un environnement Linux**, ou WSL sous Windows, avec :
    - la chaîne de compilation Dreamcast [KallistiOS](https://github.com/KallistiOS/KallistiOS), dans `/opt/toolchains/dc` ;
    - `python3` ;
@@ -68,7 +67,7 @@ Vous pouvez faire l'une ou l'autre, ou les deux :
 Versions de référence : `DRAGON.EXE` de 372 736 octets (France) ou 368 640 octets (USA). Pour la version française,
 `BIGFILE.DAT` fait 45 107 200 octets, avec le MD5 des 5000 premiers octets égal à `9854fed0d2b48522a62973e99b52a0be`.
 
-**3. Ajouter les graphismes HD (facultatif)** : copier `HD.DAT` et `HDSPR.DAT` dans le dossier `hd/`.
+**3. Ajouter les graphismes HD** : copier `HD.DAT` et `HDSPR.DAT` dans le dossier `hd/`.
 
 **4. Compiler et créer les images disque**
 
